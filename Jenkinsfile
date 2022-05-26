@@ -11,6 +11,7 @@ pipeline {
      * The Dockerfile for this project builds the angular app
      * and puts the resulting dist folder in an nginx container
      *
+     *
      */
     stage('Build Angular and Create nginx image') {
       steps {
